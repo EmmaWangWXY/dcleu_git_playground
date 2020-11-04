@@ -48,6 +48,12 @@ view: users {
     sql: ${TABLE}.first_name ;;
   }
 
+  parameter: app_select {
+    description: "App Selection"
+    type: string
+    suggest_dimension: gender
+  }
+
   dimension: gender {
     type: string
     sql: ${TABLE}.gender ;;
