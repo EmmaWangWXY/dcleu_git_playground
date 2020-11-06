@@ -12,7 +12,7 @@ persist_with: emma_git_playground_default_datagroup
 
 
 
-
+explore: orders_extend{}
 
 explore: events {
   join: users {
